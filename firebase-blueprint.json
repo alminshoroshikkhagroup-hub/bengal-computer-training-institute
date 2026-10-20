@@ -1,0 +1,54 @@
+{
+  "entities": {
+    "Admission": {
+      "title": "Admission",
+      "description": "Student admission application record",
+      "type": "object",
+      "properties": {
+        "id": { "type": "string" },
+        "fullName": { "type": "string" },
+        "phone": { "type": "string" },
+        "email": { "type": "string", "format": "email" },
+        "courseId": { "type": "string" },
+        "courseName": { "type": "string" },
+        "address": { "type": "string" },
+        "couponCode": { "type": "string" },
+        "batch": { "type": "string" },
+        "status": { "type": "string", "enum": ["pending", "verified", "enrolled"] },
+        "createdAt": { "type": "string" },
+        "userId": { "type": "string" }
+      },
+      "required": ["fullName", "phone", "courseId", "createdAt"]
+    },
+    "CertificateRecord": {
+      "title": "CertificateRecord",
+      "description": "BTEB or Institute certified student verification record",
+      "type": "object",
+      "properties": {
+        "id": { "type": "string" },
+        "certificateNo": { "type": "string" },
+        "rollNo": { "type": "string" },
+        "regNo": { "type": "string" },
+        "studentName": { "type": "string" },
+        "fatherName": { "type": "string" },
+        "courseName": { "type": "string" },
+        "session": { "type": "string" },
+        "issueDate": { "type": "string" },
+        "grade": { "type": "string" },
+        "btebApproved": { "type": "boolean" },
+        "instituteCode": { "type": "string" }
+      },
+      "required": ["rollNo", "regNo", "studentName", "courseName", "issueDate", "grade"]
+    }
+  },
+  "firestore": {
+    "/admissions/{admissionId}": {
+      "schema": "Admission",
+      "description": "Public admission applications and user submissions"
+    },
+    "/certificates/{certificateId}": {
+      "schema": "CertificateRecord",
+      "description": "Official student certificates database"
+    }
+  }
+}

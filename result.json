@@ -1,0 +1,139 @@
+{
+  "success": true,
+  "status": "completed",
+  "agent": {
+    "model": "spark-2",
+    "effort": "medium",
+    "prompt": "https://bengal-computer-training-institute-ku-2439.ai.studio/",
+    "threadId": "thread_bengal_inst_2439",
+    "runId": "run_fc_spark2_01"
+  },
+  "targetUrl": "https://bengal-computer-training-institute-ku-2439.ai.studio/",
+  "data": {
+    "institute": {
+      "name": "BENGAL INSTITUTE",
+      "bteb_code": "27117",
+      "affiliation": "Bangladesh Technical Education Board (BTEB)",
+      "government_reg": "165441",
+      "address": "আজিজুর রহমান সুপার মার্কেট, ১ম তলা (জনতা ব্যাংক লিমিটেডের প্রধান শাখার উপরে), সিঙ্গার মোড়, এন এস রোড, কুষ্টিয়া-৭০০০",
+      "landmark": "Singer Mor, Janata Bank Principal Branch Building, 1st Floor",
+      "phone": [
+        "01782-824582",
+        "01870-707715"
+      ],
+      "email": "bengalonetechsolution@gmail.com",
+      "working_hours": "শনিবার–বৃহস্পতিবার: সকাল ৮টা–রাত ৯টা"
+    },
+    "courses": [
+      {
+        "id": "hsc-ict",
+        "name": "এইচএসসি আইসিটি স্পেশাল ব্যাচ (৫০% ছাড়)",
+        "english_name": "HSC ICT Special Program & Practical Coding",
+        "duration": "৩ মাস / পরীক্ষার আগ পর্যন্ত",
+        "fee_bdt": 2000,
+        "regular_fee_bdt": 4000,
+        "bteb_approved": true,
+        "sso_google_workspace_access": true,
+        "description": "সংখ্যা পদ্ধতি, লজিক গেট, HTML ওয়েব ডিজাইন, C programming ও database management।"
+      },
+      {
+        "id": "spoken-english",
+        "name": "স্পোকেন ইংলিশ ও ক্যারিয়ার কমিউনিকেশন",
+        "english_name": "Spoken English & Career Communication",
+        "duration": "২ মাস / ৩ মাস",
+        "fee_bdt": 2200,
+        "regular_fee_bdt": 3500,
+        "bteb_approved": false,
+        "sso_google_workspace_access": false,
+        "description": "ইংরেজিতে fluency, pronunciation, foreign-client communication ও job interview।"
+      },
+      {
+        "id": "kids-coding",
+        "name": "কিডস কম্পিউটার ও স্ক্র্যাচ কোডিং (৬-১২ বছর)",
+        "english_name": "Kids Computer, English & Scratch Coding",
+        "duration": "৩ মাস",
+        "fee_bdt": 2500,
+        "regular_fee_bdt": 4000,
+        "bteb_approved": false,
+        "sso_google_workspace_access": false,
+        "description": "কম্পিউটার শিক্ষা, typing games ও block-based Scratch coding।"
+      },
+      {
+        "id": "office-app",
+        "name": "প্রফেশনাল কম্পিউটার অফিস অ্যাপ্লিকেশন (BTEB)",
+        "english_name": "Professional Computer Office Application",
+        "duration": "৩ মাস / ৬ মাস",
+        "fee_bdt": 2999,
+        "regular_fee_bdt": 4500,
+        "bteb_approved": true,
+        "sso_google_workspace_access": true,
+        "description": "MS Word, Excel, PowerPoint, Access, Google Docs/Sheets & fast typing।"
+      },
+      {
+        "id": "graphic-design",
+        "name": "গ্রাফিক ডিজাইন ও ডিজিটাল মিডিয়া আর্ট",
+        "english_name": "Professional Graphic Design & Brand Identity",
+        "duration": "৩ মাস / ৬ মাস",
+        "fee_bdt": 3800,
+        "regular_fee_bdt": 6000,
+        "bteb_approved": true,
+        "sso_google_workspace_access": true,
+        "description": "Adobe Photoshop, Illustrator, logo, branding ও social media creative।"
+      },
+      {
+        "id": "ai-freelancing",
+        "name": "কম্পিউটার প্রশিক্ষণ এআই ও ফ্রিল্যান্সিং কোর্স",
+        "english_name": "Computer Training AI & Freelancing Masterclass",
+        "duration": "৩ মাস",
+        "fee_bdt": 3999,
+        "regular_fee_bdt": 6500,
+        "bteb_approved": true,
+        "sso_google_workspace_access": true,
+        "description": "ChatGPT, Gemini, Claude, prompt engineering ও আন্তর্জাতিক মার্কেটপ্লেস আয়।"
+      },
+      {
+        "id": "web-design",
+        "name": "রেসপন্সিভ ওয়েব ডিজাইন ও ডেভেলপমেন্ট",
+        "english_name": "Responsive Web Design & Modern Frontend",
+        "duration": "৪ মাস",
+        "fee_bdt": 4500,
+        "regular_fee_bdt": 7500,
+        "bteb_approved": true,
+        "sso_google_workspace_access": true,
+        "description": "HTML5, CSS3, Tailwind CSS, JavaScript ও গিটহাব লাইভ প্রজেক্ট।"
+      },
+      {
+        "id": "cyber-security",
+        "name": "সাইবার সিকিউরিটি ও এথিক্যাল হ্যাকিং কোর্স",
+        "english_name": "Cyber Security & Ethical Hacking Essentials",
+        "duration": "৪ মাস",
+        "fee_bdt": 4999,
+        "regular_fee_bdt": 8000,
+        "bteb_approved": false,
+        "sso_google_workspace_access": true,
+        "description": "Kali Linux, নেটওয়ার্ক সুরক্ষা, সাইবার অ্যাটাক প্রতিরোধ ও সিকিউরিটি অ্যানালাইসিস।"
+      }
+    ],
+    "special_offer": {
+      "target": "HSC পরীক্ষার্থী",
+      "discount": "৫০%",
+      "coupon_code": "HSC50",
+      "offer_period": "এপ্রিল–জুন ২০২৬ সেশন"
+    },
+    "statistics": {
+      "course_count": 8,
+      "average_placement_rate": "92.9%",
+      "average_course_duration": "3.7 মাস",
+      "successful_students": "4420+",
+      "bteb_approved_courses": 5
+    }
+  },
+  "answer_cheapest_with_sso": {
+    "course_id": "hsc-ict",
+    "course_name": "এইচএসসি আইসিটি স্পেশাল ব্যাচ (৫০% ছাড়) / HSC ICT Special Program",
+    "fee": "৳২,০০০ (৫০% ছাড়ে)",
+    "regular_fee": "৳৪,০০০",
+    "sso_support": "Google Workspace SSO (Google Drive, Docs & Sheets student portal enabled)",
+    "general_cheapest_professional": "প্রফেশনাল কম্পিউটার অফিস অ্যাপ্লিকেশন (BTEB) - ৳২,৯৯৯"
+  }
+}

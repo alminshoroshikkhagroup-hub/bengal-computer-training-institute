@@ -1,0 +1,8 @@
+{
+  "name": "Remix Remix Bengal Computer Training Institute - Kushtia",
+  "description": "বেঙ্গল কম্পিউটার ট্রেনিং ইনস্টিটিউট - সিঙ্গার মোড়, জনতা ব্যাংক ভবন, কুষ্টিয়া। কারিগরি শিক্ষা বোর্ড অনুমোদিত সরকারি ও ফ্রিল্যান্সার ক্যারিয়ার সেন্টার।",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
